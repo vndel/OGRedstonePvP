@@ -1,0 +1,75 @@
+Storage:
+  type: SQLite
+  host: localhost
+  port: 3306
+  username: root
+  password: password
+  database: redpvp
+chat-format:
+  in-gang-chat: "&7%gangsplus_gang_name_formatted% %luckperms_prefix%%player_name% %redstonepvp_tier%%alonsotags_tag_chat% &8» &r%ezcolors_color_msg_%%message%"
+  normal-chat: "%luckperms_prefix%%player_name% %redstonepvp_tier% %alonsotags_tag_chat%&8» &r%ezcolors_color_msg_%%message%"
+item-bleed:
+  item: REDSTONE
+  amount:
+    min: 0
+    max: 5
+DropParty:
+  timer: 1800 #seconds
+  items-dropped: 15
+  players-required: 2
+RandomBox:
+  price: GOLD_INGOT:2
+  items:
+    Sword1:
+      type: IRON_SWORD
+      amount: 1
+      display-name: '&5&lSWORD I'
+      unbreakable: true
+      enchantments:
+        - DAMAGE_ALL:1
+      lore:
+        - ''
+        - '&7Strong upgradable Sword'
+        - ''
+    Sword2:
+      type: DIAMOND_SWORD
+      amount: 1
+      display-name: '&5&lSWORD II'
+      unbreakable: true
+      enchantments:
+        - DAMAGE_ALL:2
+      lore:
+        - ''
+        - '&7Strong upgradable Sword'
+        - ''
+combat-log:
+  duration: 20 #Seconds
+  blocked-commands:
+    - "*" #Block all cmds
+  allowed-commands:
+    - r
+    - whisper
+    - message
+    - gang chat
+    - gc
+parkour-chest:
+  items-to-recieve: 8
+  commands:
+    - "give %player% stone 64"
+    - "give %player% stone 64"
+    - "give %player% stone 64"
+    - "give %player% stone 64"
+    - "give %player% stone 64"
+    - "give %player% stone 64"
+    - "give %player% stone 64"
+    - "give %player% stone 64"
+    - "give %player% stone 64"
+    - "give %player% stone 64"
+    - "give %player% stone 64"
+anvils:
+  repair:
+  merge:
+locations:
+  spawn-point: ""
+  dropparty: ""
+  parkour-chest: ""

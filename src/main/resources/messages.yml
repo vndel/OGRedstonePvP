@@ -1,0 +1,10 @@
+prefix: "&8┃ &cRedstone&4PvP &8»&r "
+RandomBox:
+  busy-box: "&cThis random box currently is use, come back later!"
+  inventory-full: "&cYou can't use the random box because your inventory is full!"
+  poor-player: "&cYou don't have enough gold to open a random box!"
+  done: "&aCongratulations! You won %item%"
+CombatLog:
+  combat-join: "%prefix%&eYou are now in combat. Do not log out!"
+  combat-quit: "%prefix%&eYou are no longer in combat."
+  blocked-command: "%prefix%&eYou are not allowed to use this command while in combat!"

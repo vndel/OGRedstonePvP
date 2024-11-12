@@ -1,0 +1,7 @@
+name: OGRedstonePvP
+version: '${project.version}'
+main: me.drman.RedPvP
+depend:
+  - Vault
+  - PlaceholderAPI
+  - GangsPlus

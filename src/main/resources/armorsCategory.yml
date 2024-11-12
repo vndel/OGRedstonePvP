@@ -1,0 +1,14 @@
+category-settings:
+  title: "ARMORS"
+  size: 45
+category-items:
+  sword1:
+    type: IRON_SWORD
+    slot: 11
+    removeDetails: true #removes the lore & display item when buy the item
+    display-name: "&5&lSWORD I"
+    price:
+      vault: 25
+      materials: GOLD_INGOT:3
+    lore:
+      - '&fa sword that can be used for killing players'

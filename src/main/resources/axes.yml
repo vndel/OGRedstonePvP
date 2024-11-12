@@ -1,0 +1,58 @@
+axes:
+  Poison:
+    potion: "POISON"
+    duration: 5
+    level: 2
+    chance: 50
+    target: "defender"
+    item:
+      type: DIAMOND_AXE
+      amount: 1
+      display-name: "&aPoison Axe"
+      enchantments:
+        - DAMAGE_ALL:4
+      lore:
+        - ""
+        - "&aPoison II"
+        - ""
+  Regeneration:
+    potion: "REGENERATION"
+    duration: 10
+    level: 2
+    target: "attacker"
+    price: Redstone:10
+    chance: 50
+    slot: 12
+    item:
+      type: DIAMOND_AXE
+      amount: 1
+      display-name: "&aREGENERATION AXE"
+      enchantments:
+        - DAMAGE_ALL:4
+      lore:
+        - ""
+        - "&cREGENERATION II"
+        - ""
+      shoplore:
+        - ""
+        - "&7Cost: &6Redstonex10"
+        - ""
+  Lightning:
+    potion: "Lightning"
+    price: Redstone:10
+    chance: 50
+    slot: 13
+    item:
+      type: DIAMOND_AXE
+      amount: 1
+      display-name: "&aREGENERATION AXE"
+      enchantments:
+        - DAMAGE_ALL:4
+      lore:
+        - ""
+        - "&cREGENERATION II"
+        - ""
+      shoplore:
+        - ""
+        - "&7Cost: &6Redstonex10"
+        - ""

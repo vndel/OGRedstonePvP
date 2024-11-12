@@ -1,0 +1,42 @@
+shop-settings:
+  title: "SHOP"
+  size: 45
+shop-discounts:
+  rank1:
+    permission: redstonepvp.discount.rank1
+    discount-percentage: 10
+  rank2:
+    permission: redstonepvp.discount.rank2
+    discount-percentage: 20
+  rank3:
+    permission: redstonepvp.discount.rank3
+    discount-percentage: 30
+shop-categories:
+  armorsCategory:
+    slot: 11
+    display-item:
+      display-name: "&eArmor"
+      head: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU4NmUwYjI5M2RlZjVjMjU3MzM4NDNiYmU2Nzc5Y2NkYTc3NTkwZTEzMjI0YTJkYjYyNzZhZDgyM2VkNTVlIn19fQ=="
+      lore:
+       - '&fPurchase armor with &credstone'
+       - '&fand &6gold'
+       - ''
+       - '&fAvailable: &a10 Armor(s)'
+       - '&fDiscounts: &a&lYes'
+       - ''
+       - '&fType: &dALL'
+       - '&fPayment methods: &aItems&f,&eCoins'
+  axesCategory:
+    slot: 12
+    display-item:
+      display-name: "&dAxes"
+      head: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU4NmUwYjI5M2RlZjVjMjU3MzM4NDNiYmU2Nzc5Y2NkYTc3NTkwZTEzMjI0YTJkYjYyNzZhZDgyM2VkNTVlIn19fQ=="
+      lore:
+        - '&fPurchase armor with &credstone'
+        - '&fand &6gold'
+        - ''
+        - '&fAvailable: &a10 Armor(s)'
+        - '&fDiscounts: &a&lYes'
+        - ''
+        - '&fType: &dALL'
+        - '&fPayment methods: &aItems&f,&eCoins'

@@ -1,0 +1,14 @@
+category-settings:
+  title: "AXES"
+  size: 45
+category-items:
+  axe1:
+    axe: Poison
+    slot: 11
+    removeDetails: true #removes the lore & display item when buy the item
+    display-name: "&a&lPoison Axe"
+    price:
+      vault: 25
+      materials: GOLD_INGOT:3
+    lore:
+      - '&fa sword that can be used for killing players'
